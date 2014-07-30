@@ -14,5 +14,4 @@ l = algorithm.DoubleLink.DoubleLink(range(0,9))
 l.invert()
 l.printl()
 endtime = time.time()
-
 print endtime - starttime
