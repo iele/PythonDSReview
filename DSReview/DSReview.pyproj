@@ -27,8 +27,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="algorithm\Basic.py" />
+    <Compile Include="algorithm\BinarySearchTree.py" />
     <Compile Include="algorithm\BinaryTree.py" />
     <Compile Include="algorithm\DoubleLink.py" />
+    <Compile Include="algorithm\Heap.py" />
     <Compile Include="algorithm\Link.py" />
     <Compile Include="algorithm\Stack.py" />
     <Compile Include="algorithm\__init__.py" />

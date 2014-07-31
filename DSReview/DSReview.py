@@ -1,17 +1,11 @@
 #!/usr/bin/env python
 
-import random
 import time
-import algorithm.DoubleLink
-
-rand = random.Random()
-s = []
-for i in range(0, 4):
-    s.append(rand.randint(0, 1000))
+import algorithm.BinarySearchTree
 
 starttime = time.time()
-l = algorithm.DoubleLink.DoubleLink(range(0,9))
-l.invert()
-l.printl()
+l = algorithm.BinarySearchTree.BinarySearchTree(range(1,100))
+l.postorder(l.top)
 endtime = time.time()
+
 print endtime - starttime
